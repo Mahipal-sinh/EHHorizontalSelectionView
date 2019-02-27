@@ -254,7 +254,7 @@ static NSMutableDictionary * _Nullable _EHHorisontalSelectionStyles = nil;
         self.selectedView.hidden = NO;
         
         [UIView animateWithDuration:!CGRectIsNull(rect) ? 0.3 : 0.0 animations:^{
-            self.titleLabel.font = [UIFont fontWithName:@"Lato-Semibold" size:12];
+            self.titleLabel.font = [UIFont fontWithName:@"Lato-Semibold" size:15];
             //[[self class] fontMedium];
             
             if (_textColor)
@@ -273,7 +273,7 @@ static NSMutableDictionary * _Nullable _EHHorisontalSelectionStyles = nil;
     {
         self.selectedView.hidden = YES;
         [UIView animateWithDuration:!CGRectIsNull(rect) ? 0.3 : 0.0 animations:^{
-            self.titleLabel.font = [UIFont fontWithName:@"Lato-Semibold" size:12];
+            self.titleLabel.font = [UIFont fontWithName:@"Lato-Semibold" size:15];
             //UIFont(name: "Lato-Semibold", size: 5) //[[self class] font];
             
             if (_altTextColor)
