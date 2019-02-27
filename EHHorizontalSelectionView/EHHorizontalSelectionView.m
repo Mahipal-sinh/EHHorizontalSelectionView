@@ -364,7 +364,7 @@ typedef NS_ENUM(NSUInteger, EHHorizontalSelectionViewType) {
 {
     return YES;
 }
-
+/*
 - (void)collectionView:(UICollectionView *)collectionView didHighlightItemAtIndexPath:(NSIndexPath *)indexPath
 {
     EHHorizontalViewCell * cell = (EHHorizontalViewCell*)[collectionView cellForItemAtIndexPath:indexPath];
@@ -376,7 +376,7 @@ typedef NS_ENUM(NSUInteger, EHHorizontalSelectionViewType) {
     EHHorizontalViewCell * cell = (EHHorizontalViewCell*)[collectionView cellForItemAtIndexPath:indexPath];
     [cell highlight:NO];
 }
-
+*/
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
     if (_selectedCell)
