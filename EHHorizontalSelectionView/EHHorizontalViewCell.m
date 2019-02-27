@@ -296,7 +296,8 @@ static NSMutableDictionary * _Nullable _EHHorisontalSelectionStyles = nil;
 
 - (void)highlight:(BOOL)highlighted
 {
-    self.titleLabel.alpha = highlighted ? 0.3 : 0.5;
+    self.titleLabel.alpha = 1.0;
+    //self.titleLabel.alpha = highlighted ? 0.3 : 0.5;
 }
 
 - (void)setTitleLabelText:(NSString *)text
